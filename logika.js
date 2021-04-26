@@ -51,4 +51,12 @@ function saberiOdredjeniBroj(niz,broj){  // sabira npr sve dvojke u nizu
     return zbir;
 }
 
-console.log(saberiOdredjeniBroj(x,3));
+let kocka = {
+    kockaIme : "kockaJedan",
+    kockaVrednost : 5,
+    baciKockuJedan: function() {
+        return this.kockaVrednost;
+    } 
+}
+
+console.log(kocka.baciKockuJedan());
