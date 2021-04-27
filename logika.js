@@ -51,12 +51,29 @@ function saberiOdredjeniBroj(niz,broj){  // sabira npr sve dvojke u nizu
     return zbir;
 }
 
-let kocka = {
-    kockaIme : "kockaJedan",
-    kockaVrednost : 5,
-    baciKockuJedan: function() {
-        return this.kockaVrednost;
-    } 
+class Die {
+    constructor(div) {
+        this.value = Math.floor(Math.random()*6)+1;    //initial value (random 1 to 6);
+        this.div = document.getElementById(div);   //initial div (grab)
+        this.counter = 1;   //sets counter to 1 (out of 3 possible throws)
+    }
+    prikazi() {
+
+    }
+    jump() {
+
+    }
+    count() {
+        this.counter = this.counter + 1;
+    }
+    new_value() { //method for setting the new value of a die
+        this.value = Math.floor(Math.random()*6)+1;
+    }
+    roll() {
+
+    }
 }
 
-console.log(kocka.baciKockuJedan());
+kocka1 = new Die(2,"div2");
+
+console.log(kocka1);

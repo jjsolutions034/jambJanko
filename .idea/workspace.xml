@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e4697f97-93ed-45f0-9958-c48dc3689f93" name="Default Changelist" comment="asd" />
+    <list default="true" id="e4697f97-93ed-45f0-9958-c48dc3689f93" name="Default Changelist" comment="asd">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logika.js" beforeDir="false" afterPath="$PROJECT_DIR$/logika.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,11 +16,18 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="storm" />
+        <entry key="$PROJECT_DIR$" value="main" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-    <option name="UPDATE_TYPE" value="REBASE" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="ProjectId" id="1rj1FTFAK2gWoroKN98ni8FdrIE" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -41,7 +51,7 @@
       <updated>1619474585876</updated>
       <workItem from="1619474590773" duration="2238000" />
       <workItem from="1619477203293" duration="3750000" />
-      <workItem from="1619539722149" duration="296000" />
+      <workItem from="1619539722149" duration="6530000" />
     </task>
     <task id="LOCAL-00001" summary="asd">
       <created>1619477340294</created>
@@ -50,7 +60,14 @@
       <option name="project" value="LOCAL" />
       <updated>1619477340294</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="asd">
+      <created>1619540168653</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1619540168653</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -67,7 +84,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="main" />
+                        <option value="nastavak" />
                       </list>
                     </value>
                   </entry>
